@@ -1,0 +1,46 @@
+.header {
+  margin-top: 7rem;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__secondary {
+    font-size: 2rem;
+    color: $color-primary-blue;
+    text-align: center;
+  }
+
+  &__primary {
+    font-size: 6.5rem;
+    text-align: center;
+    line-height: 1.4;
+    text-transform: uppercase;
+    width: 70rem;
+    span {
+      color: $color-primary-blue;
+    }
+  }
+
+  &__paragraph {
+    font-size: 2rem;
+    margin: 3rem 0;
+    width: 70rem;
+    text-align: center;
+  }
+}
+
+.header::before {
+  content: "";
+  background: url("/img/bg.png") no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10rem;
+  opacity: 0.4;
+  z-index: -10;
+}
