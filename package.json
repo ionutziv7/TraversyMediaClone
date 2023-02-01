@@ -1,0 +1,14 @@
+{
+  "name": "traversymedia",
+  "version": "1.0.0",
+  "description": "Traversy Media clone",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ionut Ivanciu",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
