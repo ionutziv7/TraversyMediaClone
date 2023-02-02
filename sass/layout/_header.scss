@@ -44,3 +44,40 @@
   opacity: 0.4;
   z-index: -10;
 }
+
+// ===== FEATURES =====
+.features {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -15rem auto 0 auto;
+    text-align: center;
+  }
+
+  &__icons {
+    display: grid;
+    gap: 7rem;
+    grid-template-columns: repeat(3, 1fr);
+    color: #fff;
+    z-index: 100;
+  }
+
+  &__icon {
+    i {
+      font-size: 6.4rem;
+      font-weight: 900;
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__text {
+    h2 {
+      font-size: 5rem;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+  }
+}

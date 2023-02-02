@@ -27,7 +27,7 @@ a:visited {
   display: inline-block;
   font-size: 1.5rem;
   font-weight: 700;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 1rem 3rem;
   color: #fff;
   background-color: #3195ff;
@@ -74,6 +74,31 @@ a:visited {
   top: 10rem;
   opacity: 0.4;
   z-index: -10; }
+
+.features__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -15rem auto 0 auto;
+  text-align: center; }
+
+.features__icons {
+  display: grid;
+  gap: 7rem;
+  grid-template-columns: repeat(3, 1fr);
+  color: #fff;
+  z-index: 100; }
+
+.features__icon i {
+  font-size: 6.4rem;
+  font-weight: 900;
+  margin-bottom: 3rem; }
+
+.features__text h2 {
+  font-size: 5rem; }
+
+.features__text p {
+  font-size: 2rem; }
 
 .navigation {
   width: 100%;
