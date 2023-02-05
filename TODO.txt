@@ -1,0 +1,13 @@
+Navigation:
+  -> width 100%
+  -> get out of container
+  -> set container inside or add a navigation __wrapper
+
+Mouse change wheel dimension 
+  -> greater width and height
+
+Latest Courses 
+  -> btn more on click functionality
+  -> add last 3 cards with coresponding images and links/ coupons/ alt text
+  -> display none initial state of the last 3 cards
+  -> javascript on click display block
