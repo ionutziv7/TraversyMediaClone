@@ -15,3 +15,16 @@
     border: 1px solid #fff;
   }
 }
+
+.btn-secondary {
+  width: 100%;
+  background-color: $color-grey-dark;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $color-primary-blue;
+    border: none;
+  }
+}

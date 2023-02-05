@@ -56,3 +56,95 @@
     }
   }
 }
+
+// ===== LATEST COURSES =====
+.latest-courses {
+  width: 100%;
+  height: 100vh;
+  margin-top: 5rem;
+  background: url(/img/bg-pattern-1.png);
+  padding: 7rem 0;
+}
+
+.courses-grid-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.course-grid-item {
+  background-color: #222;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: #333 solid 1px;
+  position: relative;
+}
+
+.course-logo {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  img {
+    width: 6rem;
+  }
+}
+
+.card-body {
+  padding-top: 3rem;
+  height: 15rem;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  .udemy-logo {
+    width: 3rem;
+    margin-right: 1rem;
+  }
+
+  .course-link {
+    transition: all 0.3s ease;
+  }
+
+  .course-link:hover {
+    color: #ea5252;
+  }
+}
+
+.course-grid-item:hover {
+  .coupon-code {
+    opacity: 1;
+  }
+}
+
+// coupon code
+.coupon-code {
+  opacity: 0;
+  position: absolute;
+  bottom: -3.7rem;
+  width: 100%;
+  left: 0;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  backface-visibility: hidden;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .code {
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    span {
+      color: #ea5252;
+      letter-spacing: 0.25rem;
+      margin-left: 1rem;
+      font-weight: bold;
+    }
+  }
+}
