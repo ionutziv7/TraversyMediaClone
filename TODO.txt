@@ -2,9 +2,9 @@ Navigation:
   -> width 100%
   -> get out of container
   -> set container inside or add a navigation __wrapper
+  -> opacity > 6
 
-Mouse change wheel dimension 
-  -> greater width and height
+Mouse change animation // -> done
 
 Latest Courses 
   -> btn more on click functionality

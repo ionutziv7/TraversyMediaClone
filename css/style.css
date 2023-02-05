@@ -206,7 +206,7 @@ a:visited {
   0% {
     transform: translateY(-5px); }
   50% {
-    transform: translateY(-10px); }
+    transform: translateY(-15px); }
   100% {
     transform: translateY(-5px); } }
 
@@ -224,7 +224,7 @@ a:visited {
   bottom: 0;
   max-width: 115rem;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.95);
   z-index: 1000; }
   .navigation__nav {
     display: flex;
@@ -321,7 +321,7 @@ a:visited {
 
 .latest-courses {
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 3rem;
   background: url(/img/bg-pattern-1.png);
   padding: 7rem 0; }
 
