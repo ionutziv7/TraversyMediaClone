@@ -21,7 +21,7 @@ const btnShowCourses = document.getElementById("btn-show-courses");
 
 // Event listeners
 btnShowCourses.addEventListener("click", () => {
-  btnShowCourses.classList.toggle("hide");
+  btnShowCourses.classList.toggle("hide-courses");
   // toggle btn textContent
   toggleBtn();
 
@@ -37,7 +37,7 @@ btnShowCourses.addEventListener("click", () => {
 
 // Set btn text when clicked accordingly
 function toggleBtn() {
-  if (btnShowCourses.classList.contains("hide")) {
+  if (btnShowCourses.classList.contains("hide-courses")) {
     btnShowCourses.textContent = "HIDE COURSES";
   } else {
     btnShowCourses.textContent = "SHOW MORE COURSES";

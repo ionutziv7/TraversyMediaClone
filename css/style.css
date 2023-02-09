@@ -334,11 +334,7 @@ a:visited {
   width: 100%;
   margin-top: 3rem;
   background: url(/img/bg-pattern-1.png);
-  padding: 7rem 0;
-  transition: all 0.4s ease-in-out; }
-
-.last-courses-container {
-  transition: all 0.4s ease-in-out; }
+  padding: 7rem 0; }
 
 .courses-grid-items {
   display: grid;

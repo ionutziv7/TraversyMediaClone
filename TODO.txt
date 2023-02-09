@@ -7,7 +7,8 @@ Navigation:
 Mouse change animation // -> done
 
 Latest Courses 
-  -> btn more on click functionality
-  -> add last 3 cards with coresponding images and links/ coupons/ alt text
-  -> display none initial state of the last 3 cards
-  -> javascript on click display block
+  -> btn more on click functionality // -> DONE
+  -> add last 3 cards with coresponding images and links/ coupons/ alt text -> DONE
+  -> display none initial state of the last 3 cards -> DONE
+  -> javascript on click display block -> DONE
+  -> change on click textContent of the btn -> DONE
