@@ -1,4 +1,4 @@
-// first method
+// Course items
 
 const mernItem = document.querySelector(".mern-item");
 const nodeJsItem = document.querySelector(".node-js-item");
@@ -7,10 +7,7 @@ const djangoItem = document.querySelector(".django-item");
 const phpItem = document.querySelector(".php-item");
 const electronItem = document.querySelector(".electron-item");
 
-const lastCoursesContainer = document.querySelectorAll(
-  ".last-courses-container"
-);
-
+// Created array of items
 const arrItems = [
   mernItem,
   nodeJsItem,
@@ -25,8 +22,10 @@ const btnShowCourses = document.getElementById("btn-show-courses");
 // Event listeners
 btnShowCourses.addEventListener("click", () => {
   btnShowCourses.classList.toggle("hide");
+  // toggle btn textContent
   toggleBtn();
 
+  // loop through items and display them and add margin
   arrItems.forEach((item) => {
     // display last 6 courses
     item.classList.toggle("display-block");
