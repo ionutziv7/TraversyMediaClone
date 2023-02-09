@@ -16,6 +16,13 @@
   }
 }
 
+.btn-primary {
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
 .btn-secondary {
   width: 100%;
   background-color: $color-grey-dark;

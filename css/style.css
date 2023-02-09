@@ -105,6 +105,11 @@ a:visited {
     background-color: transparent;
     border: 1px solid #fff; }
 
+.btn-primary {
+  transition: all 0.3s; }
+  .btn-primary:hover {
+    transform: translateY(-5px); }
+
 .btn-secondary {
   width: 100%;
   background-color: #333;
