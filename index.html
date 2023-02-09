@@ -325,9 +325,9 @@
         <!-- end of grid items -->
 
         <!-- grid items \\\\\\\\\\\\\\ to apear when SHOW MORE COURSES btn is clicked //////////// -->
-        <div class="courses-grid-items mt-5">
+        <div class="courses-grid-items last-courses-container">
           <!-- grid item 7 -->
-          <div class="course-grid-item">
+          <div class="course-grid-item mern-item display-none">
             <div class="course-logo">
               <img src="img/mern_ecommerce_small.png" alt="HTML CSS SASS" />
             </div>
@@ -353,7 +353,7 @@
           <!-- end of grid item 7 -->
 
           <!-- grid item 8 -->
-          <div class="course-grid-item react">
+          <div class="course-grid-item node-js-item display-none">
             <div class="course-logo">
               <img src="img/node_small.png" alt="JavaScript" />
             </div>
@@ -379,7 +379,7 @@
           <!-- end of grid item 8 -->
 
           <!-- grid item 9 -->
-          <div class="course-grid-item">
+          <div class="course-grid-item web-20-projects-item display-none">
             <div class="course-logo">
               <img src="img/js20_small.png" alt="" />
             </div>
@@ -407,9 +407,9 @@
         <!-- end of grid items -->
 
         <!-- grid items -->
-        <div class="courses-grid-items mt-5">
+        <div class="courses-grid-items last-courses-container">
           <!-- grid item 10 -->
-          <div class="course-grid-item">
+          <div class="course-grid-item django-item display-none">
             <div class="course-logo">
               <img src="img/django_small.png" alt="django logo" />
             </div>
@@ -435,7 +435,7 @@
           <!-- end of grid item 10 -->
 
           <!-- grid item 11 -->
-          <div class="course-grid-item react">
+          <div class="course-grid-item php-item display-none">
             <div class="course-logo">
               <img src="img/php_small.png" alt="php logo" />
             </div>
@@ -461,7 +461,7 @@
           <!-- end of grid item 11 -->
 
           <!-- grid item 12 -->
-          <div class="course-grid-item">
+          <div class="course-grid-item electron-item display-none">
             <div class="course-logo">
               <img src="img/electron_small.png" alt="electron logo" />
             </div>
@@ -489,12 +489,17 @@
         <!-- end of grid items -->
 
         <div class="show-more-btn">
-          <button class="btn-secondary btn btn-more mt-5 mb-2">
+          <button
+            class="btn-secondary btn btn-more mt-5 mb-2"
+            id="btn-show-courses"
+          >
             SHOW MORE COURSES
           </button>
         </div>
       </div>
     </section>
     <!-- End of Latest Courses -->
+
+    <script src="script.js"></script>
   </body>
 </html>
