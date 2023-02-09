@@ -106,7 +106,7 @@ a:visited {
     border: 1px solid #fff; }
 
 .btn-primary {
-  transition: all 0.3s; }
+  transition: all 0.3s ease-in; }
   .btn-primary:hover {
     transform: translateY(-5px); }
 
