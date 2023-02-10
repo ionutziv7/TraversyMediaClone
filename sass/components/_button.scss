@@ -35,3 +35,23 @@
     border: none;
   }
 }
+
+// cta btn (section web-dev-guide)
+.cta-btn {
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: .7rem 2.5rem;
+  line-height: 2.4;
+  color: #fff;
+  background-color: #000000;
+  border-radius: .5rem;
+  text-align: center;
+  transition: all 0.1s;
+  cursor: pointer;
+
+  &:hover {
+   background-color: #333;
+  }
+}

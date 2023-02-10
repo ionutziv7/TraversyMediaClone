@@ -126,6 +126,22 @@ a:visited {
     background-color: #3195ff;
     border: none; }
 
+.cta-btn {
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: .7rem 2.5rem;
+  line-height: 2.4;
+  color: #fff;
+  background-color: #000000;
+  border-radius: .5rem;
+  text-align: center;
+  transition: all 0.1s;
+  cursor: pointer; }
+  .cta-btn:hover {
+    background-color: #333; }
+
 .header {
   margin-top: 10rem;
   height: 100vh;
@@ -397,3 +413,40 @@ a:visited {
       letter-spacing: 0.25rem;
       margin-left: 1rem;
       font-weight: bold; }
+
+.section-web-dev-guide {
+  background-color: #143f7d;
+  width: 100%;
+  padding: 5rem 0; }
+
+.web-dev-guide-container {
+  max-width: 115rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem; }
+
+.ebook__image__container {
+  width: 45rem; }
+
+.ebook__image {
+  width: 100%;
+  object-fit: cover; }
+
+.ebook__text {
+  margin-top: 5rem; }
+
+.ebook__author {
+  font-size: 2rem;
+  font-weight: bold; }
+
+.ebook__title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem; }
+
+.ebook__details {
+  font-size: 2.1rem;
+  font-weight: 400; }
+  .ebook__details--p2 {
+    margin: 1rem 0; }

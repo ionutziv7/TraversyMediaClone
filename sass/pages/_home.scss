@@ -148,3 +148,56 @@
     }
   }
 }
+// ===== END OF LATEST COURSES =====
+
+// ===== WEB DEV GUIDE SECTION =====
+.section-web-dev-guide {
+  background-color: $color-primary-blue-2;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.web-dev-guide-container {
+  max-width: 115rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.ebook {
+  &__image__container {
+    width: 45rem;
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__text {
+    margin-top: 5rem;
+  }
+
+  &__author {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &__title {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  &__details {
+    font-size: 2.1rem;
+    font-weight: 400;
+
+    &--p2 {
+      margin: 1rem 0;
+    }
+  }
+}
+// ===== END OF WEB DEV GUIDE SECTION =====
