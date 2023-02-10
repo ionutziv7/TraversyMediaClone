@@ -456,5 +456,38 @@ a:visited {
   .ebook__details--p2 {
     margin: 1rem 0; }
 
-.freelance-section {
+.freelance__section {
   background-color: #f1f1f1; }
+
+.freelance__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center; }
+
+.freelance__card {
+  background-color: #f4f4f4;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  padding: 2rem 3rem;
+  color: #333;
+  border: 1px solid #eee;
+  border-radius: 0.5rem; }
+
+.freelance__course {
+  font-size: 1.5rem; }
+
+.freelance__title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-top: 1rem; }
+
+.freelance__details {
+  font-size: 1.8rem;
+  margin: 1rem 0; }
+
+.freelance__image {
+  width: 100%;
+  object-fit: cover; }
+  .freelance__image__container {
+    width: 40rem; }

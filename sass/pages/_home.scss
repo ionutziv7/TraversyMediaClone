@@ -202,9 +202,50 @@
 }
 // ===== END OF WEB DEV GUIDE SECTION =====
 
-
 // ===== FREELANCE SECTION =====
-.freelance-section {
-  background-color: $color-white-2;
+.freelance {
+  &__section {
+    background-color: $color-white-2;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__card {
+    background-color: #f4f4f4;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    padding: 2rem 3rem;
+    color: #333;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+  }
+
+  &__course {
+    font-size: 1.5rem;
+  }
+
+  &__title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+
+  &__details {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+    &__container {
+      width: 40rem;
+    }
+  }
 }
 // ===== END OF FREELANCE SECTION =====
