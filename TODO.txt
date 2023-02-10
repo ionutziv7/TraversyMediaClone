@@ -1,8 +1,8 @@
 Navigation:
-  -> width 100%
-  -> get out of container
-  -> set container inside or add a navigation __wrapper
-  -> opacity > 6
+  -> width 100% -> done
+  -> get out of container -> done
+  -> set container inside or add a navigation __wrapper -> done
+  -> opacity > 6 -> done
 
 Mouse change animation // -> done
 
@@ -12,3 +12,5 @@ Latest Courses
   -> display none initial state of the last 3 cards -> DONE
   -> javascript on click display block -> DONE
   -> change on click textContent of the btn -> DONE
+
+😁
