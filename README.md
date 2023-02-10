@@ -1,7 +1,7 @@
 # TraversyMedia Clone
 
 ### Designed in Figma
-### Website implemented in Visual Studio Code
+### Website build in Visual Studio Code
 ### Technologies:
  - HTML5
  - CSS3
