@@ -55,3 +55,11 @@
    background-color: #333;
   }
 }
+
+.btn-blue {
+  background-color: $color-primary-blue;
+
+  &:hover {
+    background-color: #000;
+  }
+}

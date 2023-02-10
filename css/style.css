@@ -142,6 +142,11 @@ a:visited {
   .cta-btn:hover {
     background-color: #333; }
 
+.btn-blue {
+  background-color: #3195ff; }
+  .btn-blue:hover {
+    background-color: #000; }
+
 .header {
   margin-top: 10rem;
   height: 100vh;
@@ -450,3 +455,6 @@ a:visited {
   font-weight: 400; }
   .ebook__details--p2 {
     margin: 1rem 0; }
+
+.freelance-section {
+  background-color: #f1f1f1; }
