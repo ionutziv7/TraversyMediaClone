@@ -249,6 +249,24 @@ a:visited {
   .patreon__btn:hover {
     opacity: 0.9; }
 
+.footer {
+  background-color: #3195ff;
+  width: 100%; }
+  .footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .footer__wrapper h3 {
+      font-size: 2.3rem; }
+  .footer__icons__container {
+    display: flex;
+    align-items: center;
+    justify-content: end; }
+    .footer__icons__container i:not(:last-child) {
+      margin-right: 3rem; }
+    .footer__icons__container i:hover {
+      cursor: pointer; }
+
 .header {
   margin-top: 10rem;
   height: 100vh;
