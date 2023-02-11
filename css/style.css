@@ -237,6 +237,18 @@ a:visited {
   .btn-white:hover {
     opacity: 0.9; }
 
+.patreon__btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: #f56854;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer; }
+  .patreon__btn:hover {
+    opacity: 0.9; }
+
 .header {
   margin-top: 10rem;
   height: 100vh;
@@ -640,3 +652,22 @@ a:visited {
   .crash__course__item img {
     width: 100%;
     object-fit: cover; }
+
+.patreon__section {
+  background-color: #fff; }
+
+.patreon__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 70%;
+  grid-gap: 5rem;
+  align-items: center;
+  width: 100%; }
+
+.patreon__card {
+  color: #0c0c0c;
+  width: 100%;
+  border: 1px solid #222;
+  border-radius: 0.5rem;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.1); }
+  .patreon__card__heading, .patreon__card__strong {
+    color: #2c3e50; }

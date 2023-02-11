@@ -339,3 +339,32 @@
   }
 }
 // ===== END OF CRASH COURSES SECTION =====
+
+// ===== PATREON SECTION =====
+.patreon {
+  &__section {
+    background-color: $color-white;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 70%;
+    grid-gap: 5rem;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__card {
+    color: $color-dark-4;
+    width: 100%;
+    border: 1px solid #222;
+    border-radius: 0.5rem;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.1);
+
+    &__heading,
+    &__strong {
+      color: $color-blue-dark;
+    }
+  }
+}
+// ===== END OF PATREON SECTION =====

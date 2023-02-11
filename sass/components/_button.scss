@@ -72,3 +72,19 @@
     opacity: 0.9;
   }
 }
+
+// patreon btn
+.patreon__btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: $color-orange-1;
+  border-radius: 0.5rem;
+  color: $color-white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
