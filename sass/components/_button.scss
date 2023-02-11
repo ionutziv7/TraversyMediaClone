@@ -42,17 +42,17 @@
   display: inline-block;
   font-size: 1.5rem;
   font-weight: 700;
-  padding: .7rem 2.5rem;
+  padding: 0.7rem 2.5rem;
   line-height: 2.4;
-  color: #fff;
-  background-color: #000000;
-  border-radius: .5rem;
+  color: $color-white;
+  background-color: $color-dark;
+  border-radius: 0.5rem;
   text-align: center;
   transition: all 0.1s;
   cursor: pointer;
 
   &:hover {
-   background-color: #333;
+    background-color: $color-grey-dark;
   }
 }
 
@@ -60,6 +60,15 @@
   background-color: $color-primary-blue;
 
   &:hover {
-    background-color: #000;
+    background-color: $color-dark;
+  }
+}
+
+.btn-white {
+  background-color: $color-white-3 !important;
+  color: $color-dark-4 !important;
+
+  &:hover {
+    opacity: 0.9;
   }
 }
