@@ -17,14 +17,13 @@
     display: flex;
     align-items: center;
     justify-content: end;
+  }
+  .icon:not(:last-child) {
+    margin-right: 3rem;
+  }
 
-    i:not(:last-child) {
-      margin-right: 3rem;
-    }
-
-    i:hover {
-      cursor: pointer;
-    }
+  .icon:hover {
+    cursor: pointer;
   }
 }
 // ===== END OF FOOTER =====
