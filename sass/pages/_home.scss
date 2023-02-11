@@ -307,3 +307,35 @@
   }
 }
 // ===== END OF CHANNEL SECTION =====
+
+// ===== CRASH COURSES SECTION =====
+.crash__course {
+  &__section {
+    background-color: $color-dark;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-column-gap: 2.5rem;
+    grid-row-gap: 3.5rem;
+  }
+
+  &__item {
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    transition: all 0.5s;
+    backface-visibility: hidden;
+
+    &:hover {
+      transform: translateY(-1.5rem);
+    }
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+// ===== END OF CRASH COURSES SECTION =====

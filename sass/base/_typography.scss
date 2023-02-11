@@ -1,3 +1,7 @@
+.text-center {
+  text-align: center;
+}
+
 .secondary-heading {
   font-size: 3rem;
   text-align: center;
@@ -24,4 +28,12 @@
   text-transform: uppercase;
   font-size: 1.7rem;
   color: $color-primary-blue;
+}
+
+.color-red {
+  color: $color-red;
+}
+
+.color-red-2 {
+  color: $color-red-2;
 }
