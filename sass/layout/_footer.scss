@@ -18,11 +18,17 @@
     align-items: center;
     justify-content: end;
   }
+
+  .icon {
+    transition: all 0.4s ease;
+  }
+
   .icon:not(:last-child) {
     margin-right: 3rem;
   }
 
   .icon:hover {
+    color: $color-dark-4;
     cursor: pointer;
   }
 }

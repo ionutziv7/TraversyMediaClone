@@ -262,9 +262,12 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: end; }
+  .footer .icon {
+    transition: all 0.4s ease; }
   .footer .icon:not(:last-child) {
     margin-right: 3rem; }
   .footer .icon:hover {
+    color: #0c0c0c;
     cursor: pointer; }
 
 .header {
