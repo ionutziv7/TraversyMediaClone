@@ -30,6 +30,9 @@ a:visited {
   .secondary-heading span {
     color: #3195ff; }
 
+.text-lg {
+  font-size: 3.5rem; }
+
 .paragraph {
   font-size: 2rem;
   margin-bottom: 3rem; }
@@ -89,6 +92,54 @@ a:visited {
 
 .ml-2 {
   margin-left: 2rem; }
+
+.pt-5 {
+  padding-top: 5rem; }
+
+.pr-5 {
+  padding-right: 5rem; }
+
+.pb-5 {
+  padding-bottom: 5rem; }
+
+.pl-5 {
+  padding-left: 5rem; }
+
+.pt-4 {
+  padding-top: 4rem; }
+
+.pr-4 {
+  padding-right: 4rem; }
+
+.pb-4 {
+  padding-bottom: 4rem; }
+
+.pl-4 {
+  padding-left: 4rem; }
+
+.pt-3 {
+  padding-top: 3rem; }
+
+.pr-3 {
+  padding-right: 3rem; }
+
+.pb-3 {
+  padding-bottom: 3rem; }
+
+.pl-3 {
+  padding-left: 3rem; }
+
+.pt-2 {
+  padding-top: 2rem; }
+
+.pr-2 {
+  padding-right: 2rem; }
+
+.pb-2 {
+  padding-bottom: 2rem; }
+
+.pl-2 {
+  padding-left: 2rem; }
 
 .display-none {
   display: none; }
@@ -462,7 +513,7 @@ a:visited {
 .freelance__wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 7rem;
   align-items: center;
   justify-content: center; }
 
@@ -491,3 +542,25 @@ a:visited {
   object-fit: cover; }
   .freelance__image__container {
     width: 40rem; }
+
+.about__section {
+  background: url(/img/bg-pattern-1.png); }
+
+.about__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  align-items: center; }
+
+.about__card--black {
+  padding: 3rem;
+  background-color: #222;
+  border-radius: .5rem;
+  width: 95%;
+  border: 1px solid #333; }
+  .about__card--black p {
+    font-size: 1.76rem; }
+
+.about__image {
+  width: 100%;
+  object-fit: cover; }

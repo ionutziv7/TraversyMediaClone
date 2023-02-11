@@ -211,7 +211,7 @@
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 7rem;
     align-items: center;
     justify-content: center;
   }
@@ -249,3 +249,40 @@
   }
 }
 // ===== END OF FREELANCE SECTION =====
+
+// ===== ABOUT SECTION =====
+.about {
+  &__section {
+    background: url(/img/bg-pattern-1.png);
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    align-items: center;
+
+  }
+
+  &__card--black {
+    padding: 3rem;
+    background-color: #222;
+    border-radius: .5rem;
+    width: 95%;
+    border: 1px solid #333;
+    
+    p {
+      font-size: 1.76rem;
+    }
+  }
+
+  &__image__wrapper {
+    //width: 45rem;
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+// ===== END OF ABOUT SECTION =====
