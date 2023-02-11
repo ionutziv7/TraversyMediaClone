@@ -23,7 +23,7 @@ const btnShowCourses = document.getElementById("btn-show-courses");
 btnShowCourses.addEventListener("click", () => {
   btnShowCourses.classList.toggle("hide-courses");
   // toggle btn textContent
-  toggleBtn();
+  toggleBtnText();
 
   // loop through items and display them and add margin
   arrItems.forEach((item) => {
@@ -36,7 +36,7 @@ btnShowCourses.addEventListener("click", () => {
 });
 
 // Set btn text when clicked accordingly
-function toggleBtn() {
+function toggleBtnText() {
   if (btnShowCourses.classList.contains("hide-courses")) {
     btnShowCourses.textContent = "HIDE COURSES";
   } else {
