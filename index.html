@@ -133,12 +133,13 @@
         <div class="notify__text">
           <h2 class="notify__heading">Notify me of new courses</h2>
         </div>
-        <form class="notify__form">
+        <form class="notify__form" method="POST" data-netlify="true">
           <input
             class="notify__input"
             type="email"
             name="email"
             id="email"
+            required
             placeholder="Email"
           />
           <input class="notify__submit" type="submit" value="Notify me" />
