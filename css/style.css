@@ -1,3 +1,27 @@
+@keyframes animateTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+@keyframes animateLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-17rem); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@keyframes animateBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +50,14 @@ a:visited {
 
 .text-center {
   text-align: center; }
+
+.header__primary {
+  animation: animateLeft 1.5s ease;
+  animation-fill-mode: forwards; }
+
+.header__secondary {
+  animation: animateTop 1.3s ease;
+  animation-fill-mode: forwards; }
 
 .secondary-heading {
   font-size: 3rem;
@@ -180,6 +212,12 @@ a:visited {
 .display-block {
   display: block; }
 
+.vh {
+  visibility: hidden; }
+
+.vv {
+  visibility: visible; }
+
 .btn {
   display: inline-block;
   font-size: 1.5rem;
@@ -196,9 +234,9 @@ a:visited {
     border: 1px solid #fff; }
 
 .btn-primary {
-  transition: all 0.3s ease-in; }
-  .btn-primary:hover {
-    transform: translateY(-5px); }
+  transition: all 0.3s ease-in;
+  animation: animateBottom 1.7s ease;
+  animation-fill-mode: forwards; }
 
 .btn-secondary {
   width: 100%;

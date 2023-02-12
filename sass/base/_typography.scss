@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.header__primary{
+  animation: animateLeft 1.5s ease;
+  animation-fill-mode: forwards;
+}
+
+.header__secondary {
+  animation: animateTop 1.3s ease;
+  animation-fill-mode: forwards;
+}
+
 .secondary-heading {
   font-size: 3rem;
   text-align: center;

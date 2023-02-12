@@ -18,9 +18,8 @@
 
 .btn-primary {
   transition: all 0.3s ease-in;
-  &:hover {
-    transform: translateY(-5px);
-  }
+  animation: animateBottom 1.7s ease;
+  animation-fill-mode: forwards;
 }
 
 .btn-secondary {
