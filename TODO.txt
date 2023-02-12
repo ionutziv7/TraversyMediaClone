@@ -17,5 +17,5 @@ Latest Courses
 
 Add animations on hero and other sections
 
-Up arrow on the bottom page or sticky 
+Up arrow on the bottom page or sticky  // -> DONE
   <i class="fa-solid fa-arrow-up"></i>
