@@ -272,7 +272,7 @@ a:visited {
 
 .header {
   margin-top: 10rem;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: relative;
   z-index: 10;
@@ -311,7 +311,7 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: -8rem auto 10rem auto;
+  margin: 8rem auto 10rem auto;
   text-align: center; }
 
 .features__icons {
@@ -434,14 +434,13 @@ a:visited {
 
 .notify__wrapper {
   max-width: 115rem;
-  height: 13vh;
+  padding: 3rem 0;
   margin: 7rem auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
 
 .notify__text {
-  text-transform: uppercase;
-  margin-top: 3rem; }
+  text-transform: uppercase; }
 
 .notify__input {
   width: 35rem;
@@ -456,8 +455,6 @@ a:visited {
     font-size: 1.6rem; }
 
 .notify__form {
-  margin-top: 2.5rem;
-  margin-left: -3rem;
   display: flex; }
 
 .notify__submit {

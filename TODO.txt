@@ -14,3 +14,8 @@ Latest Courses
   -> change on click textContent of the btn -> DONE
 
 😁
+
+Add animations on hero and other sections
+
+Up arrow on the bottom page or sticky 
+  <i class="fa-solid fa-arrow-up"></i>

@@ -7,7 +7,7 @@
 
   &__wrapper {
     max-width: 115rem;
-    height: 13vh;
+    padding: 3rem 0;
     margin: 7rem auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -15,7 +15,6 @@
 
   &__text {
     text-transform: uppercase;
-    margin-top: 3rem;
   }
 
   &__input {
@@ -33,8 +32,6 @@
   }
 
   &__form {
-    margin-top: 2.5rem;
-    margin-left: -3rem;
     display: flex;
   }
 
