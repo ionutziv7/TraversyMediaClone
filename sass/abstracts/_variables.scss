@@ -1,14 +1,28 @@
 $color-primary-blue: #3195ff;
 $color-primary-blue-2: #143f7d;
 
-$color-blue-dark: #2c3e50;
+$color-blue-cyan: #22d3ee;
+$color-blue-cyan-2: #a5f3fc;
+
+$color-blue-sky: #38bdf8;
+$color-blue-light: #f0f9ff;
+
+$color-blue: #1d4ed8;
+$color-blue-light-2: #dbeafe;
+
+$color-teal: #2dd4bf;
+$color-emerald:#34d399;
+
+$color-blue-dark: #1b3249;
+$color-sky-dark: #061822;
+$color-indigo-dark: #14115d;
 
 $color-grey-1: #5f8a9a;
 $color-grey-dark: #333;
 $color-grey-3: #c8c8c8;
 
 $color-red: #b81a12;
-$color-red-2:#ea5252;
+$color-red-2: #ea5252;
 
 $color-orange-1: #f56854;
 
@@ -21,3 +35,22 @@ $color-dark-4: #0c0c0c;
 $color-white: #fff;
 $color-white-2: #f1f1f1;
 $color-white-3: #f4f4f4;
+
+$color-gradient: linear-gradient(
+  300.81deg,
+  $color-blue-cyan -17.99%,
+  $color-blue-sky 111.32%,
+  $color-blue 111.32%
+);
+$color-gradient-2: linear-gradient(
+  171.21deg,
+  $color-blue-dark -10.74%,
+  $color-sky-dark 112.82%,
+  $color-indigo-dark 112.82%
+);
+$color-gradient-3: linear-gradient(
+  300.81deg,
+  $color-blue -17.99%,
+  $color-blue-sky 111.32%,
+  $color-primary-blue 111.32%
+);

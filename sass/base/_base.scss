@@ -19,6 +19,27 @@ body {
   line-height: 1.6;
 }
 
+// Custom scrollbar
+body::-webkit-scrollbar {
+  width: 1.1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: $color-gradient-2;
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: $color-gradient;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  border-radius: 10px;
+  background: $color-gradient-3;
+}
+
+
 a:link,
 a:visited {
   color: #fff;
