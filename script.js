@@ -44,14 +44,18 @@ function toggleBtnText() {
   }
 }
 
+// Show arrow Top when scroll on page and remove arrow on a specific coordinate
 window.onscroll = function () {
   myFunction();
 };
 
 function myFunction() {
-  if (document.documentElement.scrollTop > 750) {
-    document.getElementById("arrow").className = "arrow__container";
+  if (document.documentElement.scrollTop > 550) {
+    document.getElementById("arrow").classList.add('arrow__container');
+    document.getElementById("arrow").classList.add('opacity-1');
+    document.getElementById("arrow").classList.add('vv');
   } else {
-    document.getElementById("arrow").className = "";
+    document.getElementById("arrow").className = "opacity-0";
+    document.getElementById("arrow").className = "vh";
   }
 }
