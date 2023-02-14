@@ -43,3 +43,15 @@ function toggleBtnText() {
     btnShowCourses.textContent = "SHOW MORE COURSES";
   }
 }
+
+window.onscroll = function () {
+  myFunction();
+};
+
+function myFunction() {
+  if (document.documentElement.scrollTop > 750) {
+    document.getElementById("arrow").className = "arrow__container";
+  } else {
+    document.getElementById("arrow").className = "";
+  }
+}
