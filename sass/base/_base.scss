@@ -1,17 +1,21 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth;
 }
 
 html {
-  font-size: 62.5%;
+  // this defines what 1rem is
+  font-size: 62.5%; // 1rem is 10px; 10px/16px = 62.5%
 }
 
 body {
+  box-sizing: border-box;
   background-color: $color-dark;
   color: $color-white;
   font-family: "Poppins", sans-serif;

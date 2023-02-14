@@ -38,6 +38,9 @@
 
     &-youtube {
       display: flex;
+      @media (max-width: 880px) {
+        display: none;
+      }
       span {
         font-size: 1.2rem;
         color: #fff;

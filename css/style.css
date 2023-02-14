@@ -22,10 +22,12 @@
     opacity: 1;
     transform: translateY(0); } }
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth; }
@@ -34,6 +36,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  box-sizing: border-box;
   background-color: #000;
   color: #fff;
   font-family: "Poppins", sans-serif;
@@ -456,6 +459,9 @@ a:visited {
     padding: 0.5rem 0; }
     .navigation__item-youtube {
       display: flex; }
+      @media (max-width: 880px) {
+        .navigation__item-youtube {
+          display: none; } }
       .navigation__item-youtube span {
         font-size: 1.2rem;
         color: #fff; }
