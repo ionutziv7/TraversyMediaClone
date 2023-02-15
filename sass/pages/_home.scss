@@ -453,6 +453,9 @@
   &__card {
     color: $color-dark-4;
     width: 100%;
+    @media screen and (max-width: 360px) {
+       width: 90%;
+    }
     border: 1px solid #222;
     border-radius: 0.5rem;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.1);
@@ -472,18 +475,18 @@
 
   .patreon__img {
     width: 100%;
-    height: 100%;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 360px) {
   .image__wrapper {
-    width: 30rem;
-    height: 30rem;
+    width: 33rem;
+    height: 33rem;
   }
 
   .patreon__img {
     width: 100%;
-    height: 100%;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 300px) {
@@ -506,6 +509,12 @@
     position: fixed;
     bottom: 1.7rem;
     right: 5rem;
+
+    @media screen and (max-width: 880px) {
+      bottom: 6rem;
+      right: 4.2rem;
+    }
+
     width: 4.2rem;
     height: 4.2rem;
     font-size: 1.2rem;

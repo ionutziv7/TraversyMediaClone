@@ -84,6 +84,9 @@ a:visited {
       padding: 0 2.5rem; } }
   @media screen and (max-width: 500px) {
     .container {
+      padding: 0 2.2rem; } }
+  @media screen and (max-width: 400px) {
+    .container {
       padding: 0 2rem; } }
   @media screen and (max-width: 400px) {
     .container {
@@ -134,7 +137,10 @@ a:visited {
   font-size: 2rem; }
   @media screen and (max-width: 360px) {
     .lead {
-      font-size: 1.8rem; } }
+      font-size: 1.6rem; } }
+  @media screen and (max-width: 300px) {
+    .lead {
+      font-size: 1.5rem; } }
 
 .paragraph {
   font-size: 2rem;
@@ -300,6 +306,10 @@ a:visited {
   line-height: 2.4;
   text-transform: uppercase;
   cursor: pointer; }
+  @media screen and (max-width: 400px) {
+    .btn {
+      font-size: 1.4rem;
+      padding: 0.8rem 2.4rem; } }
   .btn:hover {
     background-color: transparent;
     border: 1px solid #fff; }
@@ -561,6 +571,8 @@ a:visited {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.95);
   z-index: 200; }
+  .navigation__logo img {
+    width: 6.5rem; }
   .navigation__nav {
     max-width: 115rem;
     margin: 0 auto;
@@ -647,7 +659,7 @@ a:visited {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.77);
+  background-color: rgba(0, 0, 0, 0.9);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -657,7 +669,7 @@ a:visited {
 .navigation__mobile__link:link, .navigation__mobile__link:visited {
   display: inline-block;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   padding: 0.75rem 1.7rem;
   color: #fff;
   text-decoration: none;
@@ -665,6 +677,14 @@ a:visited {
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 230%;
   transition: all 0.4s; }
+  @media screen and (max-width: 400px) {
+    .navigation__mobile__link:link, .navigation__mobile__link:visited {
+      font-size: 1.75rem;
+      padding: 0.6rem 1.47rem; } }
+  @media screen and (max-width: 300px) {
+    .navigation__mobile__link:link, .navigation__mobile__link:visited {
+      font-size: 1.6rem;
+      padding: 0.55rem 1.3rem; } }
   .navigation__mobile__link:link:hover, .navigation__mobile__link:link:active, .navigation__mobile__link:visited:hover, .navigation__mobile__link:visited:active {
     background-position: 100%;
     color: #3195ff;
@@ -1014,6 +1034,9 @@ a:visited {
   border: 1px solid #222;
   border-radius: 0.5rem;
   box-shadow: 0 7px 25px rgba(0, 0, 0, 0.1); }
+  @media screen and (max-width: 360px) {
+    .patreon__card {
+      width: 90%; } }
   .patreon__card__heading, .patreon__card__strong {
     color: #1b3249; }
 
@@ -1023,15 +1046,15 @@ a:visited {
     height: 37rem; }
   .patreon__img {
     width: 100%;
-    height: 100%; } }
+    object-fit: cover; } }
 
 @media screen and (max-width: 360px) {
   .image__wrapper {
-    width: 30rem;
-    height: 30rem; }
+    width: 33rem;
+    height: 33rem; }
   .patreon__img {
     width: 100%;
-    height: 100%; } }
+    object-fit: cover; } }
 
 @media screen and (max-width: 300px) {
   .image__wrapper {
@@ -1056,6 +1079,10 @@ a:visited {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease-out; }
+  @media screen and (max-width: 880px) {
+    .arrow__container {
+      bottom: 6rem;
+      right: 4.2rem; } }
   .arrow__container:hover {
     transform: translateY(-5px);
     background-color: #fff;
