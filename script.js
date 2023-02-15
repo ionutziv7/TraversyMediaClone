@@ -51,11 +51,27 @@ window.onscroll = function () {
 
 function myFunction() {
   if (document.documentElement.scrollTop > 550) {
-    document.getElementById("arrow").classList.add('arrow__container');
-    document.getElementById("arrow").classList.add('opacity-1');
-    document.getElementById("arrow").classList.add('vv');
+    document.getElementById("arrow").classList.add("arrow__container");
+    document.getElementById("arrow").classList.add("opacity-1");
+    document.getElementById("arrow").classList.add("vv");
   } else {
     document.getElementById("arrow").className = "opacity-0";
     document.getElementById("arrow").className = "vh";
   }
 }
+
+// Mobile navigation
+const hamburger = document.querySelector(".navigation__mobile__hamburger");
+const navigationMobileWrapper = document.querySelector(
+  ".navigation__mobile__wrapper"
+);
+const menuOpen = document.querySelector(".menu-open");
+const menuClose = document.querySelector(".menu-close");
+
+hamburger.addEventListener("click", () => {
+  navigationMobileWrapper.classList.toggle("vv");
+  navigationMobileWrapper.classList.toggle("opacity-1");
+
+  menuOpen.classList.toggle("display-none");
+  menuClose.classList.toggle("display-block");
+});

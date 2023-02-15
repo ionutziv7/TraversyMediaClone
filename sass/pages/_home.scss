@@ -422,3 +422,16 @@
   }
 }
 // ===== END OF ARROW UP =====
+
+
+// ===== MEDIA QUERIES =====
+@media (max-width: 768px) {
+  .navigation__list {
+    display: none;
+  }
+
+  .navigation__mobile__hamburger {
+    display: flex;
+  }
+}
+// ===== END OF MEDIA QUERIES =====

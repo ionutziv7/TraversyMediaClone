@@ -19,3 +19,15 @@ Add animations on hero and other sections
 
 Up arrow on the bottom page or sticky  // -> DONE
   <i class="fa-solid fa-arrow-up"></i>
+
+Hamburger menu with javascript 
+  -> onclick container hamburger 
+        -> wrapper with opacity: 0.8 or 0.9
+        -> display nav ul li a Courses eBook Youtube
+        -> close btn X
+        -> document.body.addEventListener('click', () => {
+          wrapper.style.display = 'none';
+          or wrapper.style.visibility = 'hidden'
+          or wrapper.classList.add('vh')
+        })
+  -> on hover change color of the lines and background of the container
