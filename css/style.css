@@ -106,6 +106,18 @@ a:visited {
 .secondary-heading {
   font-size: 3rem;
   text-align: center; }
+  @media screen and (max-width: 768px) {
+    .secondary-heading {
+      font-size: 2.8rem; } }
+  @media screen and (max-width: 500px) {
+    .secondary-heading {
+      font-size: 2.5rem; } }
+  @media screen and (max-width: 360px) {
+    .secondary-heading {
+      font-size: 2.2rem; } }
+  @media screen and (max-width: 300px) {
+    .secondary-heading {
+      font-size: 2rem; } }
   .secondary-heading span {
     color: #3195ff; }
 
@@ -114,9 +126,15 @@ a:visited {
   @media screen and (max-width: 400px) {
     .text-lg {
       font-size: 2.5rem; } }
+  @media screen and (max-width: 360px) {
+    .text-lg {
+      font-size: 2.2rem; } }
 
 .lead {
   font-size: 2rem; }
+  @media screen and (max-width: 360px) {
+    .lead {
+      font-size: 1.8rem; } }
 
 .paragraph {
   font-size: 2rem;
@@ -827,10 +845,34 @@ a:visited {
   font-size: 4.5rem;
   font-weight: bold;
   margin-bottom: 1rem; }
+  @media screen and (max-width: 768px) {
+    .ebook__title {
+      font-size: 4rem; } }
+  @media screen and (max-width: 500px) {
+    .ebook__title {
+      font-size: 3rem; } }
+  @media screen and (max-width: 360px) {
+    .ebook__title {
+      font-size: 2rem; } }
+  @media screen and (max-width: 300px) {
+    .ebook__title {
+      font-size: 1.6rem; } }
 
 .ebook__details {
   font-size: 2.1rem;
   font-weight: 400; }
+  @media screen and (max-width: 768px) {
+    .ebook__details {
+      font-size: 1.9rem; } }
+  @media screen and (max-width: 500px) {
+    .ebook__details {
+      font-size: 1.7rem; } }
+  @media screen and (max-width: 360px) {
+    .ebook__details {
+      font-size: 1.6rem; } }
+  @media screen and (max-width: 360px) {
+    .ebook__details {
+      font-size: 1.4rem; } }
   .ebook__details--p2 {
     margin: 1rem 0; }
 
@@ -855,6 +897,12 @@ a:visited {
   color: #333;
   border: 1px solid #eee;
   border-radius: 0.5rem; }
+  @media screen and (max-width: 360px) {
+    .freelance__card {
+      width: 100%; } }
+  @media screen and (max-width: 320px) {
+    .freelance__card {
+      max-width: 87%; } }
 
 .freelance__course {
   font-size: 1.5rem; }
@@ -871,6 +919,9 @@ a:visited {
 .freelance__image {
   width: 100%;
   object-fit: cover; }
+  @media screen and (max-width: 768px) {
+    .freelance__image {
+      width: 65%; } }
   .freelance__image__container {
     width: 40rem; }
 

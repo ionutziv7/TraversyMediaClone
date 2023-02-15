@@ -222,12 +222,36 @@
 
   &__title {
     font-size: 4.5rem;
+    @media screen and (max-width: 768px) {
+      font-size: 4rem;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 3rem;
+    }
+    @media screen and (max-width: 360px) {
+      font-size: 2rem;
+    }
+    @media screen and (max-width: 300px) {
+      font-size: 1.6rem;
+    }
     font-weight: bold;
     margin-bottom: 1rem;
   }
 
   &__details {
     font-size: 2.1rem;
+    @media screen and (max-width: 768px) {
+      font-size: 1.9rem;
+    }
+    @media screen and (max-width: 500px) {
+      font-size: 1.7rem;
+    }
+    @media screen and (max-width: 360px) {
+      font-size: 1.6rem;
+    }
+    @media screen and (max-width: 360px) {
+      font-size: 1.4rem;
+    }
     font-weight: 400;
 
     &--p2 {
@@ -263,6 +287,14 @@
     color: #333;
     border: 1px solid #eee;
     border-radius: 0.5rem;
+
+    @media screen and (max-width: 360px) {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 320px) {
+      max-width: 87%;
+    }
   }
 
   &__course {
@@ -282,6 +314,9 @@
 
   &__image {
     width: 100%;
+    @media screen and (max-width: 768px) {
+      width: 65%;
+    }
     object-fit: cover;
     &__container {
       width: 40rem;
