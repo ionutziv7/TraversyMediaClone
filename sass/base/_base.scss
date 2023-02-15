@@ -12,6 +12,13 @@
 html {
   // this defines what 1rem is
   font-size: 62.5%; // 1rem is 10px; 10px/16px = 62.5%
+  @media (max-width: 1200px) {
+    font-size: 56.25%;
+  }
+  @media (max-width: 900px) {
+    font-size: 50%;
+  }
+
 }
 
 body {
@@ -52,4 +59,23 @@ a:visited {
 .container {
   max-width: 115rem;
   margin: 0 auto;
+  padding: 0 5rem;
+
+  @media screen and (max-width: 880px) {
+    padding: 0 4rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0 3rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 0 2.5rem;
+  }
+  @media screen and (max-width: 500px) {
+    padding: 0 2rem;
+  }
+  @media screen and (max-width: 400px) {
+    padding: 0 1.8rem;
+  }
 }

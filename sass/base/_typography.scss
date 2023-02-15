@@ -5,6 +5,10 @@
 .header__primary{
   animation: animateLeft 1.5s ease;
   animation-fill-mode: forwards;
+
+  @media  screen and (max-width: 768px)  {
+    max-width: 100%;
+  }
 }
 
 .header__secondary {
@@ -22,6 +26,10 @@
 
 .text-lg {
   font-size: 3.5rem;
+
+  @media screen and (max-width: 400px) {
+    font-size: 2.5rem;
+  }
 }
 
 .lead {

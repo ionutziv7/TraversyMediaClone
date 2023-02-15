@@ -31,5 +31,40 @@
     color: $color-dark-4;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      h3 {
+        font-size: 2rem;
+      }
+    }
+  
+    &__icons__container {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+  
+    .icon:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+
+    h3 {
+      font-size: 1.8rem;
+    }
+
+    .fa-2x {
+      font-size: 1.5rem;
+    }
+  }
 }
 // ===== END OF FOOTER =====
