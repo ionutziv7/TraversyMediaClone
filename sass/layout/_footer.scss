@@ -34,7 +34,7 @@
 
   @media screen and (max-width: 768px) {
     width: 100%;
-  
+    text-align: center;
     &__wrapper {
       display: flex;
       align-items: center;
@@ -57,13 +57,51 @@
   }
 
   @media screen and (max-width: 400px) {
-
-    h3 {
-      font-size: 1.8rem;
+    
+    &__wrapper {
+      display: grid;
+      align-items: center;
+      justify-content: space-between;
+      grid-auto-columns: 1fr;
+      text-align: center;
+  
+      h3 {
+        font-size: 1.8rem;
+      }
+    }
+  
+    &__icons__container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .fa-2x {
-      font-size: 1.5rem;
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    padding: 1.5rem 0;
+
+    &__wrapper {
+      h3 {
+        font-size: 1.6rem;
+      }
+    }
+
+    .fa-2x {
+      font-size: 1.8rem;
+      margin-top: .7rem;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    padding: 1rem 0;
+
+    .fa-2x {
+      margin-top: .5rem;
     }
   }
 }
