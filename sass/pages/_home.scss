@@ -180,6 +180,16 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .node-js-item,
+  .web-20-projects-item,
+  .php-item,
+  .electron-item {
+    margin-top: 0;
+  }
+}
+
 // ===== END OF LATEST COURSES =====
 
 // ===== WEB DEV GUIDE SECTION =====
@@ -454,7 +464,7 @@
     color: $color-dark-4;
     width: 100%;
     @media screen and (max-width: 360px) {
-       width: 90%;
+      width: 90%;
     }
     border: 1px solid #222;
     border-radius: 0.5rem;

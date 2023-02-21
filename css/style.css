@@ -858,6 +858,13 @@ a:visited {
       margin-left: 1rem;
       font-weight: bold; }
 
+@media screen and (max-width: 768px) {
+  .node-js-item,
+  .web-20-projects-item,
+  .php-item,
+  .electron-item {
+    margin-top: 0; } }
+
 .section-web-dev-guide {
   background-color: #143f7d;
   width: 100%;
