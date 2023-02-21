@@ -51,7 +51,7 @@ body {
   overflow-x: hidden; }
 
 body::-webkit-scrollbar {
-  width: 1.1rem; }
+  width: .87rem; }
 
 body::-webkit-scrollbar-track {
   background: linear-gradient(171.21deg, #1b3249 -10.74%, #061822 112.82%, #14115d 112.82%);
